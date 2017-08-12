@@ -8,7 +8,7 @@
         </span>
         <span class="site-title">EGOIST CHAT</span>
       </h1>
-      <div class="site-desc">This is the chat community of <a href="https://github.com/egoist">my open-source projects</a>, you can join us here:</div>
+      <div class="site-desc">This is the chat community of <a href="https://github.com/egoist">my open-source projects</a>, <span v-html="msg"></span>:</div>
       <a href="https://discord.gg/KFrDE8Z" class="button">
         <discord-icon></discord-icon>
       </a>
@@ -27,6 +27,26 @@ import { TwitterIcon } from 'vue-feather-icons'
 import DiscordIcon from '../components/DiscordIcon'
 
 export default {
+  data() {
+    return {
+      repo: null
+    }
+  },
+
+  computed: {
+    msg() {
+      return this.repo ?
+        `you can chat about <a href="https://github.com/${this.repo}">${this.repo}</a> here` :
+        `you can join us here`
+    }
+  },
+
+  mounted() {
+    const match = /https?:\/\/github.com\/((?:egoist|ream)\/[\w\_]+)$/.exec(document.referer)
+    const repo = match && match[1]
+    this.repo = repo
+  },
+
   components: {
     DiscordIcon,
     TwitterIcon
