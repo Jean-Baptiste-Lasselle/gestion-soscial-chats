@@ -1,0 +1,19 @@
+{
+  "name": "egoist-chat",
+  "productName": "EGOIST CHAT",
+  "version": "1.0.0",
+  "description": "A chat community for EGOIST&#39;s open-source projects",
+  "author": "EGOIST",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "nuxt": "^1.0.0-rc3",
+    "vue-feather-icons": "^0.1.1"
+  }
+}
