@@ -42,7 +42,7 @@ export default {
   },
 
   mounted() {
-    const match = /https?:\/\/github.com\/((?:egoist|ream)\/[\w\_]+)$/.exec(document.referer)
+    const match = /https?:\/\/github.com\/((?:egoist|ream)\/[\w\_]+)$/.exec(document.referrer)
     const repo = match && match[1]
     this.repo = repo
   },
