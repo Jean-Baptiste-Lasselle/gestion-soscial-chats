@@ -4067,9 +4067,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-ream@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ream/-/ream-3.2.2.tgz#b9811e0ef5925ddee0c4f08dbb17334886a67d96"
+ream@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/ream/-/ream-3.2.3.tgz#63223dc3fbadfdd78aeb3ff22c11c56a56b2d946"
   dependencies:
     "@babel/core" "^7.0.0-beta.47"
     "@babel/plugin-proposal-class-properties" "^7.0.0-beta.47"
