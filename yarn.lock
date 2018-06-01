@@ -2934,9 +2934,9 @@ magic-string@^0.22.0:
   dependencies:
     vlq "^0.2.2"
 
-maid@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/maid/-/maid-0.2.1.tgz#1633b202a4d8e33b9215df84c3144cf27d2fe973"
+maid@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/maid/-/maid-0.2.2.tgz#be92d5f35c87948432c6e1988c28f6483fd2637e"
   dependencies:
     cac "^5.0.10"
     chalk "^2.4.1"
@@ -2945,7 +2945,6 @@ maid@^0.2.1:
     markdown-it "^8.4.1"
     micromatch "^3.1.10"
     require-from-string "^2.0.2"
-    text-table "^0.2.0"
 
 make-dir@^1.0.0:
   version "1.0.0"
@@ -4960,9 +4959,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-feather-icons@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/vue-feather-icons/-/vue-feather-icons-0.1.1.tgz#360cefc2a8a6f99912e4b8f82d7fbc04056063c3"
+vue-feather-icons@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/vue-feather-icons/-/vue-feather-icons-4.7.1.tgz#d8c55fbee7c9ad59689ebbaf07ad1e2f1e5c37da"
   dependencies:
     babel-helper-vue-jsx-merge-props "^2.0.2"
 

@@ -6,10 +6,10 @@
   "author": "EGOIST",
   "private": true,
   "dependencies": {
-    "vue-feather-icons": "^0.1.1"
+    "vue-feather-icons": "^4.7.1"
   },
   "devDependencies": {
-    "maid": "^0.2.1",
+    "maid": "^0.2.2",
     "ream": "^3.2.2"
   }
 }
