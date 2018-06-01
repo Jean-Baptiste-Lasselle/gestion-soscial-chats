@@ -2,23 +2,12 @@
 
 > A chat community for EGOIST&#39;s open-source projects
 
-https://chat.egoist.moe
+https://chat.egoist.rocks
 
-## Build Setup
+## Development
 
-``` bash
-# install dependencies
-$ yarn install
+Run `yarn maid help` to get details.
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
+## License
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+MIT &copy; [EGOIST](https://github.com/egoist)
