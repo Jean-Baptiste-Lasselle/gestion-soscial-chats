@@ -13,10 +13,15 @@
         <discord-icon></discord-icon>
       </a>
     <div class="footer">
-      <a href="https://twitter.com/_egoistlily" class="twitter-link">
-        <twitter-icon class="twitter-icon"></twitter-icon>
-        follow me on twitter
-      </a>
+      <span>
+        <a href="https://twitter.com/_egoistlily" class="twitter-link">
+          <twitter-icon class="twitter-icon"></twitter-icon>
+          follow me on twitter
+        </a>
+      </span>
+      <span>
+        <a href="https://github.com/egoist/chat.egoist.rocks">Source code</a>
+      </span>
     </div>
     </div>
   </section>
@@ -116,6 +121,17 @@ a {
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid rgba(162, 192, 210, 0.45);
+  display: flex;
+}
+
+.footer span {
+  display: flex;
+}
+
+.footer span:not(:last-child):after {
+  content: '-';
+  padding: 0 10px;
+  display: block;
 }
 
 .discord-icon {

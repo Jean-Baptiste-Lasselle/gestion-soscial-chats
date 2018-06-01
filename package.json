@@ -5,10 +5,6 @@
   "description": "A chat community for EGOIST&#39;s open-source projects",
   "author": "EGOIST",
   "private": true,
-  "scripts": {
-    "dev": "ream dev",
-    "generate": "ream generate"
-  },
   "dependencies": {
     "vue-feather-icons": "^0.1.1"
   },
