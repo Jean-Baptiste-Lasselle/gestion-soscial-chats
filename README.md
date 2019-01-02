@@ -2,7 +2,7 @@
 
 > A chat community for EGOIST&#39;s open-source projects
 
-https://chat.egoist.rocks
+https://chat.egoist.sh
 
 ## Development
 
