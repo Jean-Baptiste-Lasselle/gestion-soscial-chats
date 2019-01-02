@@ -32,6 +32,10 @@ import { TwitterIcon } from 'vue-feather-icons'
 import DiscordIcon from '../components/DiscordIcon'
 
 export default {
+  head: {
+    title: 'EGOIST chat'
+  },
+
   data() {
     return {
       repo: null

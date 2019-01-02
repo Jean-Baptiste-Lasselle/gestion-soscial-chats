@@ -3,15 +3,15 @@
 Start a development server to serve the app.
 
 ```bash
-ream dev
+poi --serve
 ```
 
-## generate
+## build
 
 Generate static website to deploy on Netlify.com, it's suppposed to be run automatically on Netlify.
 
-The generated website can be found at `.ream/generated`.
+The generated website can be found at `dist`.
 
 ```bash
-ream generate
+poi --prod
 ```
